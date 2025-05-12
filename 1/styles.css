@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+body {
+    font-family: sans-serif;
+    background: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #214d63;
+    padding: 15px 30px;
+}
+
+.logo {
+    width: 200px;
+    height: 20px;
+    background: #ccc;
+}
+
+.nav {
+    display: flex;
+}
+
+.top-nav {
+    width: 180px;
+    height: 20px;
+    background: #3a6a83;
+    
+}
+
+.top-nav1 {
+    width: 50px;
+    height: 20px;
+    background: #61879c;
+}
+
+main {
+    padding: 20px 30px;
+}
+
+/* Hero секция */
+.hero {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-images {
+    width: 50%;
+}
+
+.hero-main-image {
+    height: 350px;
+    background: #ccc;
+}
+
+.hero-add-images {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.hero-add-image {
+    width: 200px;
+    height: 60px;
+    background: #ccc;
+}
+
+.hero-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-text h1 {
+    background: #ccc;
+    height: 34px;
+    width: 60%;
+}
+
+.hero-text p:nth-child(2) {
+    margin-top: 38px;
+}
+
+.hero-text p {
+    margin-top: 38px;
+    height: 34px;
+    background: #e0e0e0;
+    width: 90%;
+}
+
+.hero-text .p1 {
+    width: 70%;
+}
+.hero-text .p22 {
+    width: 90%;
+}
+.hero-text .p3 {
+    width: 80%;
+}
+.hero-text .p4 {
+    width: 85%;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.primary {
+    width: 160px;
+    height: 50px;
+    background-color: #214d63;
+    color: white;
+}
+
+.secondary {
+    width: 160px;
+    height: 50px;
+    background-color: #3a6a83;
+    color: white;
+}
+
+/* Секция с карточками */
+.cards {
+    margin-top: 88px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    width: 28%;
+    gap: 8px;
+}
+
+.card-image {
+    width: 50%;
+    height: 100px;
+    background: #ccc;
+}
+
+
+.card-text {
+ width: 50%;
+}
+
+.card-text p:nth-child(n+2) {
+    margin-top: 16px;
+}
+
+.card-text p {
+    height: 24px;
+    background: #ddd;
+}
+
+.card-text .ep1 {
+    width: 100%;
+}
+
+.card-text .ep2 {
+    width: 80%;
+}
